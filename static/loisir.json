@@ -1,0 +1,74 @@
+{
+  "villes": [
+    {
+      "id": "0",
+      "title": "Blausee",
+      "cover": "blausee.jpg",
+      "alt": "image de Blausee",
+      "pays": "Berne, Suisse",
+      "prix": "Gratuit",
+      "euro": "1h30"
+    },
+    {
+      "id": "1",
+      "title": "Parapente",
+      "cover": "parapente.jpg",
+      "alt": "image de Parapente",
+      "pays": "Annecy, France",
+      "prix": "A PARTIR DE",
+      "euro": "80€"
+    },
+    {
+      "id": "2",
+      "title": "Balade au dos de chameau",
+      "cover": "dubai.jpg",
+      "alt": "image de Dubai",
+      "pays": "Dubaï, Emirats Arabes Unis",
+      "prix": "A PARTIR DE",
+      "euro": "41€"
+    },
+    {
+      "id": "3",
+      "title": "Ski Alpin",
+      "cover": "ski.jpg",
+      "alt": "image de Ski",
+      "pays": "Mont-Tremblant, Québec",
+      "prix": "A PARTIR DE",
+      "euro": "24€"
+    }
+  ],
+  "clients": [
+    {
+      "id": "0",
+      "img": "fatima_mafoula.jpg",
+      "alt": "image client",
+      "nom": "Fatima Mafoula",
+      "description": "Grâce à Loisirama, j'ai pu particper à une superbe balade en montagne avec toute la famille pour un prix imbattable, merci!",
+      "rating": "5"
+    },
+    {
+      "id": "1",
+      "img": "philippe_castellier.jpg",
+      "alt": "image client",
+      "nom": "Philippe Castellier",
+      "description": "Alors que j'étais en vacances au Caraïbes avec un ami, nous avions voulu faire de l'helicoptère, grâce à Loisirama, il nous a fallu moins de 5 minutes pour trouver notre bonheur!",
+      "rating": "4"
+    },
+    {
+      "id": "2",
+      "img": "jean_jacques_leroy.jpg",
+      "alt": "image client",
+      "nom": "Jean-Jacques Leroy",
+      "description": "Je rêvais de faire une balade sur le dos des chameaux. En seulement trois cliques, j'ai pu réaliser ce rêve! C'était un moment génial de partage et de beauté, merci Loisirama!",
+      "rating": "5"
+    },
+    {
+      "id": "3",
+      "img": "peneloppe_du_flantier.jpg",
+      "alt": "image client",
+      "nom": "Pénéloppe Du Flantier",
+      "description": "Nous avons trouvé tous ce que nous recherchions sur ce site avec mon mari pour nuit de noce: de la plongée sous-marine, du ski nautique et j'en passe.. Je conseille fortement Loisirama!",
+      "rating": "5"
+    }
+  ]
+}
