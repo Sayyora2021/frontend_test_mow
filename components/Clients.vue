@@ -95,6 +95,7 @@ height:50px;
     vertical-align:middle;
     font-family: 'Railway' , sans-serif;
     color:rgb(108, 106, 106);
+    width:auto;
 }
 .stars{
     color:rgb(2, 163, 2);
@@ -155,6 +156,7 @@ p{
   .grid-container {
     grid-template-columns: repeat(2, 1fr); /* Deux colonnes en mode desktop */
   }
+
 }
 
 </style>

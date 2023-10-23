@@ -2,11 +2,11 @@
 <div class="body"> 
     <h1>Rechercher par activité</h1>
     <div  class="boxes">
-    <div class="card"><font-awesome-icon :icon="['fas', 'skiing']" class="icon" /></div>
-    <div class="card"><font-awesome-icon :icon="['fas', 'swimmer']" class="icon"/></div>
-     <div class="card"> <font-awesome-icon :icon="['fas', 'hiking']" class="icon"/></div>
-     <div class="card"> <font-awesome-icon :icon="['fas', 'parachute-box']"  class="icon"/></div>
-     <div class="card"><font-awesome-icon :icon="['fas', 'volleyball-ball']" class="icon"/></div>
+    <div class="card"><font-awesome-icon :icon="['fas', 'skiing']" class="icon" /><p>Sport d'hiver</p></div>
+    <div class="card"><font-awesome-icon :icon="['fas', 'swimmer']" class="icon"/><p>Aquatique</p></div>
+     <div class="card"> <font-awesome-icon :icon="['fas', 'hiking']" class="icon"/><p>Randonné</p></div>
+     <div class="card"> <font-awesome-icon :icon="['fas', 'parachute-box']"  class="icon"/><p>Aérien</p></div>
+     <div class="card"><font-awesome-icon :icon="['fas', 'volleyball-ball']" class="icon"/><p>Sport d'équipe</p></div>
     </div>
 
 </div>
@@ -34,6 +34,7 @@ h1{
              /* -15px -15px 30px #ffffff; */
              border: 5px solid transparent;
     transition: border-color 0.3s; 
+    padding:15px;
 }
 .card:hover{
     border-color:rgb(8, 188, 8);
@@ -51,6 +52,13 @@ h1{
     flex-wrap:wrap;
      margin:30px;
      gap:10px;
+}
+p{
+    font-family:'Railway', sans-serif;
+    font-size: 16px;
+    display:flex;
+    justify-content: space-around;
+    
 }
 .body{
     background-color: #e6e3e3;
