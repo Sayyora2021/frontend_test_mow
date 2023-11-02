@@ -14,7 +14,7 @@
 <input type="email" id="email" name="email" placeholder="Adresse Email">
 </div>
 <div class="logo">
-    <img src="@/assets/img/tripadvisor.png" alt="L'icon de tripadvisor" class="trip-logo">
+    <img src="@/assets/img/tripadvisor.png" alt="L'icon de tripadvisor" class="trip-logo colorized">
     <font-awesome-icon :icon="['fab', 'facebook-f']" class="facebook"/>
     <font-awesome-icon :icon="['fab', 'instagram']" class="social-links" />
     <font-awesome-icon :icon="['fab', 'twitter']" class="social-links"/>
@@ -66,8 +66,12 @@ input{
 .trip-logo{
     width:30px;
     height:25px;
-    background-color:brown;
+    background:linear-gradient(transparent,brown);
 }
+/* .colorized {
+  background: linear-gradient(transparent, red);
+} */
+
 .social-links{
     height:50px;
     width:40px;
@@ -84,6 +88,7 @@ span{
     font-size:18px;
     padding:50px;
 }
+
 @media(min-width:1024px){
     .text{
         display:flex;

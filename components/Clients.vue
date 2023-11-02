@@ -75,7 +75,7 @@ h1{
 .left-content {
     flex: 0 0 auto; /* Partie gauche ne doit pas grandir ou rétrécir */
     margin-right: 10px; /* Espace entre l'image et le texte */
- 
+
 }
 .grid-container {
   display: grid;
@@ -88,6 +88,7 @@ position:relative;
 left:150px;
 top:-90px;
 width:80%;
+padding:15px;
 
 height:50px;
 }
@@ -100,7 +101,6 @@ height:50px;
 .stars{
     color:rgb(2, 163, 2);
     width:150px;
-    height:150px;
     display:flex;
 }
 .button-container {
@@ -149,13 +149,13 @@ height:50px;
 }
 p{
     font-family: 'Railway'; 
-    font-size:22px;
+    font-size:calc(12px + 1vw);
     
 }
 @media (min-width: 1024px) {
-  .grid-container {
+   .grid-container {
     grid-template-columns: repeat(2, 1fr); /* Deux colonnes en mode desktop */
-  }
+  } 
 
 }
 
